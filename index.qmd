@@ -18,15 +18,68 @@ Toggle between light and dark mode using the switch in the top-right corner.
 :::
 ::::
 
-## Introduction
+## Overview 
 
-{{< lipsum 1 >}}
+* Being late to the project
+* Making code and data more reusable
+* Dreams and challenges
 
-## Different kinds of text
+## Start with data 
 
-## Headings
+* [Data Management Plan](https://www.ceh.ac.uk/news-and-media/blogs/implementing-fair-wizard-ukceh)
+* ???
+* Deliverables
 
-### Heading 3 (h3)
+## Create shared archives
+
+* Researchers have local, duplicate copies
+* Data wants to live where the compute is!
+* Everyone has their own complex needs
+
+## Cloud storage
+
+* [guide.cloudnativegeo.org](https://guide.cloudnativegeo.org)
+* Built-in readers in open source libraries
+* Lucky to have [JASMIN](https://jasmin.ac.uk/) offering s3 in the UK
+
+## Ideals 
+
+* STAC catalogue for metadata and query
+* Like [Microsoft's Planetary Computer](https://planetarycomputer.microsoft.com)
+* [Pangeo @ EOSC](https://pangeo-eosc.vm.fedcloud.eu/)
+
+## Challenges
+
+* Our storage is time-limited to the project funded phase
+* Zenodo is lovely for archiving, but is it meant for programmatic reuse?
+
+## Reproducible, reusable code
+
+* From research prototype to installable package
+* [EVERSE.eu](https://everse.software/)
+* Continuously-running tests; simple packaging
+
+## Challenges 1
+
+* More LLM-generated code
+* If it must happen, generate tests, pipelines and packaging too
+* Tried it both ways, took about the same time
+
+## Challenges 2
+
+* Reproducible environments
+* Making dependencies easy to install
+* Keeping notebooks and packages in sync
+
+
+## Portability
+
+* Move out of personal projects to a shared Organisation
+* Futureproof against people moving on
+* [ICAERUS](https://icaerus.eu/) offer a shared model for this
+
+## Adaptability
+
 
 ## More information
 
