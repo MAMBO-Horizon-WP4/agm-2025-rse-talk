@@ -24,6 +24,13 @@ Toggle between light and dark mode using the switch in the top-right corner.
 * Making code and data more reusable
 * Dreams and challenges
 
+## WP4 - shrub attributes from drone data
+
+* Deep learning model (Attention Unet) for shrub shapes 
+* Methods for attributing heights that feed into biomass calculations
+* Turning research prototypes into workshop material
+* Preparing and documenting data! 
+
 ## Start with data 
 
 * [Data Management Plan](https://www.ceh.ac.uk/news-and-media/blogs/implementing-fair-wizard-ukceh)
