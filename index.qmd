@@ -77,6 +77,7 @@ Toggle between light and dark mode using the switch in the top-right corner.
 
 * From research prototype to installable package
 * [EVERSE.eu](https://everse.software/) - European Virtual Institute for RSE
+![three tiers view of evolving research software](images/everse_three_tiers.png)
 * Continuously-running tests; simple packaging, direct install from git
 
 ## Challenges 1
