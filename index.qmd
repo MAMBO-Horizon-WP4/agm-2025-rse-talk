@@ -24,12 +24,19 @@ Toggle between light and dark mode using the switch in the top-right corner.
 * Making code and data more reusable
 * Dreams and challenges
 
+## Bit of background!
+
+* _Digital Research_ group at the UK Centre for Ecology and Hydrology
+* Fairly new team of Research Software Engineers with varied backgrounds
+* Me: code and devops, mostly public sector, lots of open source geospatial
+* Hoping to increase research support for open source hardware
+
 ## WP4 - shrub attributes from drone data
 
-* Deep learning model (Attention Unet) for shrub shapes 
-* Methods for attributing heights that feed into biomass calculations
+* Deep learning model (Attention Unet) for detecting shrub shapes 
+* Methods for attributing heights that then feed into biomass calculations
 * Turning research prototypes into workshop material
-* Preparing and documenting data! 
+* Publishing and documenting data! 
 
 ## Start with data 
 
@@ -41,17 +48,22 @@ Toggle between light and dark mode using the switch in the top-right corner.
 
 * Researchers have local, duplicate copies
 * Data wants to live where the compute is!
-* Everyone has their own complex needs
+* Everyone has their own complex needs and favourite ecosystem of tools
+* Easy to get caught up in abstract, standards-driven designs
+* Need to work where people already are
 
-## Cloud storage
+## s3 Cloud storage
 
+* An Amazon Web Services protocol, but with open source implementations (MinIO)
 * [guide.cloudnativegeo.org](https://guide.cloudnativegeo.org)
-* Built-in readers in open source libraries
-* Lucky to have [JASMIN](https://jasmin.ac.uk/) offering s3 in the UK
+* Built-in readers and drivers in many open source libraries
+* Lucky to have [JASMIN](https://jasmin.ac.uk/) offering s3 in the UK, via STFC
 
 ## Ideals 
 
+* Spatial-Temporal Asset Catalogue - communoity standard, rooted in reuse
 * STAC catalogue for metadata and query
+* DVC (Data Version Control) to link and track models and data from git
 * Like [Microsoft's Planetary Computer](https://planetarycomputer.microsoft.com)
 * [Pangeo @ EOSC](https://pangeo-eosc.vm.fedcloud.eu/)
 
@@ -59,33 +71,41 @@ Toggle between light and dark mode using the switch in the top-right corner.
 
 * Our storage is time-limited to the project funded phase
 * Zenodo is lovely for archiving, but is it meant for programmatic reuse?
+* We want to stay open, but is our infrastructure set up for a barrage of crawlers?
 
 ## Reproducible, reusable code
 
 * From research prototype to installable package
-* [EVERSE.eu](https://everse.software/)
-* Continuously-running tests; simple packaging
+* [EVERSE.eu](https://everse.software/) - European Virtual Institute for RSE
+* Continuously-running tests; simple packaging, direct install from git
 
 ## Challenges 1
 
 * More LLM-generated code
-* If it must happen, generate tests, pipelines and packaging too
+* If it must happen, generate tests, pipelines and packaging too!
 * Tried it both ways, took about the same time
 
 ## Challenges 2
 
 * Reproducible environments
+* "Living off the land" approach to compute infrastructure (Colab)
 * Making dependencies easy to install
-* Keeping notebooks and packages in sync
-
+* Keeping notebooks and packages synchronised
+* Design for workshops encourages reusability, too
 
 ## Portability
 
 * Move out of personal projects to a shared Organisation
 * Futureproof against people moving on
-* [ICAERUS](https://icaerus.eu/) offer a shared model for this
+* We set up a [MAMBO Horizon WP4 Github Organisation](https://github.com/MAMBO-Horizon-WP4/) 
+* [ICAERUS](https://icaerus.eu/) offer a shared platform for code and models, EU wide
 
 ## Adaptability
+
+* Github has powerful network effects, but who can say what its future holds?
+* Trialling Codeberg for another, standalone biodiversity monitoring project ([BatSync](https://codeberg.org/BatSync))
+* Institutional collaboration as well as reputation
+
 
 
 ## More information
