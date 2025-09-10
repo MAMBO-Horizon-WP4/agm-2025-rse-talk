@@ -30,6 +30,7 @@ Toggle between light and dark mode using the switch in the top-right corner.
 ## Bit of background!
 
 * _Digital Research_ group at the UK Centre for Ecology and Hydrology
+* Data stewards, standards specialists, social scientists, engineers
 * Fairly new team of Research Software Engineers with varied backgrounds
 * Me: code and devops, mostly public sector, lots of open source geospatial
 * Hoping to increase research support for open source hardware
@@ -117,9 +118,12 @@ Toggle between light and dark mode using the switch in the top-right corner.
 * Lag keeping notebooks and packages synchronised
 * But design for workshops encourages reusability, too
 
-## Nice bits of s3 support in geospatial tools
+## 
 
 ![read and query a dataframe from a bucket](images/read_gpd_s3.png)
+
+
+## 
 
 ![quickly read a small window from a very small tiff file](images/rasterio_s3_window.png)
 
