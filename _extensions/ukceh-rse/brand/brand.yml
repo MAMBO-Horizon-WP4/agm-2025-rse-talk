@@ -16,9 +16,9 @@ meta:
 
 logo:
   images:
-    logo-light: logos/logo-light.svg
+    logo-light: logos/MAMBO-01_logo.png
     logo-dark: logos/logo-dark.svg
-    icon: logos/icon.svg
+    icon: logos/MAMBO-01_logo.png
   small: icon
   medium:
     light: logo-light
