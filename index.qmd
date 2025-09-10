@@ -10,6 +10,9 @@ date-format: long
 abstract: |
     Presentation from a Research Software Engineer on the work involved making MAMBO code and data portable and reusable, with potential lessons for future effort
 bibliography: references.bib
+format:
+  revealjs: 
+    css: logo.css
 ---
 
 :::: {.content-visible when-format="html" unless-format="revealjs"}
