@@ -125,7 +125,7 @@ Toggle between light and dark mode using the switch in the top-right corner.
 
 ## 
 
-![quickly read a small window from a very small tiff file](images/rasterio_s3_window.png)
+![quickly read a small window from a very large tiff file](images/rasterio_s3_window.png)
 
 ## Portability
 
