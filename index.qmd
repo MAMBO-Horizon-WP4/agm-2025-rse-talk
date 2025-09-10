@@ -33,7 +33,7 @@ Toggle between light and dark mode using the switch in the top-right corner.
 
 ## WP4 - shrub attributes from drone data
 
-* Deep learning model (Attention Unet) for detecting shrub shapes 
+* Deep learning model (Attention Unet) for detecting shrub shapes from images
 * Methods for attributing heights that then feed into biomass calculations
 * Turning research prototypes into workshop material
 * Publishing and documenting data! 
@@ -75,15 +75,15 @@ Toggle between light and dark mode using the switch in the top-right corner.
 
 ## Ideals 
 
-* Spatial-Temporal Asset Catalogue - communoity standard, rooted in reuse
-* STAC catalogue for metadata and query
+* Spatial-Temporal Asset Catalogue - community standard, rooted in reuse
+* STAC catalogue for metadata and query, linked to s3 storage
 * DVC (Data Version Control) to link and track models and data from git
 * Like [Microsoft's Planetary Computer](https://planetarycomputer.microsoft.com)
 * [Pangeo @ EOSC](https://pangeo-eosc.vm.fedcloud.eu/)
 
 ## Challenges
 
-* Our storage is time-limited to the project funded phase
+* Our s3 storage in JASMIN is time-limited to the project funded phase
 * Zenodo is lovely for archiving, but is it meant for programmatic reuse?
 * We want to stay open, but is our infrastructure set up for a barrage of crawlers?
 
@@ -94,36 +94,57 @@ Toggle between light and dark mode using the switch in the top-right corner.
 ![three tiers view of evolving research software](images/everse_three_tiers.png)
 * Continuously-running tests; simple packaging, direct install from git
 
+## Scripts are now python packages
+
+* This basically involves adding one file, `pyproject.toml`
+![pip install direct from git into notebook](one_shot_install.png)
+
 ## Challenges 1
 
 * More LLM-generated code
 * If it must happen, generate tests, pipelines and packaging too!
 * Tried it both ways, took about the same time
 
+
 ## Challenges 2
 
 * Reproducible environments
 * "Living off the land" approach to compute infrastructure (Colab)
 * Making dependencies easy to install
-* Keeping notebooks and packages synchronised
-* Design for workshops encourages reusability, too
+* Lag keeping notebooks and packages synchronised
+* But design for workshops encourages reusability, too
+
+## Nice bits of s3 support in geospatial tools
+
+![read and query a dataframe from a bucket](images/read_gpd_s3.png)
+
+![quickly read a small window from a very small tiff file](images/rasterio_s3_window.png)
 
 ## Portability
 
-* Move out of personal projects to a shared Organisation
+* Move repositories from personal namespace to a shared Organisation
 * Futureproof against people moving on
-* We set up a [MAMBO Horizon WP4 Github Organisation](https://github.com/MAMBO-Horizon-WP4/) 
 * [ICAERUS](https://icaerus.eu/) offer a shared platform for code and models, EU wide
+
+## MAMBO WP4 Github (currently) Organisation
+
+* We set up a [MAMBO Horizon WP4 Github Organisation](https://github.com/MAMBO-Horizon-WP4/) 
+
+![MAMBO HORIZON WP4 git forge homepage](images/github_org_wp4.png)
+
+## Reproducibility of metrics and models
+
+* We would like a shared repository of these
+* Platforms like MLFlow or DVC/CML
+* Model cards documenting usage caveats and any ethical concerns
+![Tensorboard views of training runs inside a jupyter notebook](images/tensorboard_notebook.png)
 
 ## Adaptability
 
 * Github has powerful network effects, but who can say what its future holds?
-* Trialling Codeberg for another, standalone biodiversity monitoring project ([BatSync](https://codeberg.org/BatSync))
-* Institutional collaboration as well as reputation
-
-
+* Trialling Codeberg for a bat bioacoustics data syndication project. **BatSync** just starting with Tom August - ([https://codeberg.org/BatSync](https://codeberg.org/BatSync))
+![BatSync project on Codeberg](images/batsync_homepage.png)
 
 ## More information
 
 [MAMBO Horizon WP4 on Github](https://github.com/MAMBO-Horizon-WP4/)
-
